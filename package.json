@@ -18,6 +18,13 @@
   },
   "license": "MIT",
   "config": {
+
+    "repository": {
+      "owner": "SavvyDev06",
+      "name": "Xenor"
+    },
+    "prerelease": true,
+
     "forge": {
       "packagerConfig": {},
       "makers": [
@@ -57,9 +64,6 @@
     "@electron-forge/maker-squirrel": "^6.0.0-beta.51",
     "@electron-forge/maker-zip": "^6.0.0-beta.51",
     "electron": "9.0.3"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/SavvyDev06/Xenor.git"
   }
+  
 }
