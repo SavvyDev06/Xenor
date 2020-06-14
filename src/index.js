@@ -13,7 +13,8 @@ const isDev = require('electron-is-dev');
 //const { autoUpdater, dialog } = require('electron');
 
 require('update-electron-app')({
-  updateInterval: '5 minutes',
+  repo: 'SavvyDev06/Xenor',
+  updateInterval: '5 minutes'
 })
 
 const createWindow = () => {
