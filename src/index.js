@@ -10,8 +10,9 @@ let appVersion = 0.2;
 
 const isDev = require('electron-is-dev');
 
-const { autoUpdater, dialog } = require('electron');
+//const { autoUpdater, dialog } = require('electron');
 
+require('update-electron-app')()
 
 const createWindow = () => {
   // Create the browser window.
@@ -42,7 +43,7 @@ if (isDev) {
 	console.log('Running in development m8, enjoy coding :) => v' + appVersion);
 }
 else {
-  
+  /*
   console.log('Running in production, checking for updates');
   const server = "https://xenor-server.now.sh"
   const feed = `${server}/update/${process.platform}/${app.getVersion()}`
@@ -52,10 +53,11 @@ else {
   setInterval(() => {
     autoUpdater.checkForUpdates()
   }, 60000)
-
+  */
   
 }
 
+/*
 autoUpdater.on('update-downloaded', (event, releaseNotes, releaseName) => {
   const dialogOpts = {
     type: 'info',
@@ -73,6 +75,7 @@ autoUpdater.on('error', message => {
   console.error('There was a problem updating the application. Please contact me on Discord at SavvyDev06#4043.')
   console.error(message)
 })
+*/
 
 // Quit when all windows are closed.
 app.on('window-all-closed', () => {
