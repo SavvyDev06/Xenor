@@ -12,7 +12,9 @@ const isDev = require('electron-is-dev');
 
 //const { autoUpdater, dialog } = require('electron');
 
-require('update-electron-app')()
+require('update-electron-app')({
+  repo: 'SavvyDev06/Xenor.git'
+})
 
 const createWindow = () => {
   // Create the browser window.
