@@ -1,7 +1,7 @@
 {
   "name": "xenor",
   "productName": "xenor",
-  "version": "2.3.0",
+  "version": "2.5.0",
   "description": "Xenor, the Lightweight Video Recorder",
   "main": "src/index.js",
   "scripts": {
@@ -17,14 +17,16 @@
     "email": "developer.savvasmica@gmail.com"
   },
   "license": "MIT",
-  "config": {
 
-    "repository": {
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/SavvyDev06/Xenor.git",
       "owner": "SavvyDev06",
-      "name": "Xenor"
-    },
-    "prerelease": true,
+      "name": "xenor"
+  },
+  "prerelease": true,
 
+  "config": {
     "forge": {
       "packagerConfig": {},
       "makers": [

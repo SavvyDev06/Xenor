@@ -13,14 +13,14 @@ const isDev = require('electron-is-dev');
 //const { autoUpdater, dialog } = require('electron');
 
 require('update-electron-app')({
-  repo: 'SavvyDev06/Xenor',
+  //repo: 'SavvyDev06/Xenor',
   updateInterval: '5 minutes'
 })
 
 const createWindow = () => {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
-    width: 1200,
+    width: 1000,
     height: 600,
     webPreferences: {
       nodeIntegration: true,
