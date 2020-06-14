@@ -6,16 +6,16 @@ if (require('electron-squirrel-startup')) { // eslint-disable-line global-requir
   app.quit();
 }
 
-let appVersion = 0.23;
+let appVersion = 0.56;
 
 const isDev = require('electron-is-dev');
 
 //const { autoUpdater, dialog } = require('electron');
 
 require('update-electron-app')({
-  //repo: 'SavvyDev06/Xenor',
+  repo: 'SavvyDev06/Xenor',
   updateInterval: '5 minutes'
-})
+});
 
 const createWindow = () => {
   // Create the browser window.
@@ -31,7 +31,7 @@ const createWindow = () => {
   mainWindow.loadFile(path.join(__dirname, 'index.html'));
 
   // Open the DevTools.
-  mainWindow.webContents.openDevTools();                                                     //Uncomment to re-enable dev tools!!!!!!!!
+  //mainWindow.webContents.openDevTools();                                                     //Uncomment to re-enable dev tools!!!!!!!!
 };
 
 // This method will be called when Electron has finished

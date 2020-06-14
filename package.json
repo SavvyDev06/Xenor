@@ -1,7 +1,7 @@
 {
   "name": "xenor",
   "productName": "xenor",
-  "version": "2.5.0",
+  "version": "2.5.6",
   "description": "Xenor, the Lightweight Video Recorder",
   "main": "src/index.js",
   "scripts": {
