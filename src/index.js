@@ -6,14 +6,14 @@ if (require('electron-squirrel-startup')) { // eslint-disable-line global-requir
   app.quit();
 }
 
-let appVersion = 0.2;
+let appVersion = 0.23;
 
 const isDev = require('electron-is-dev');
 
 //const { autoUpdater, dialog } = require('electron');
 
 require('update-electron-app')({
-  repo: 'SavvyDev06/Xenor.git'
+  updateInterval: '5 minutes',
 })
 
 const createWindow = () => {
