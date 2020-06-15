@@ -31,7 +31,7 @@ const createWindow = () => {
   mainWindow.loadFile(path.join(__dirname, 'index.html'));
 
   // Open the DevTools.
-  //mainWindow.webContents.openDevTools();                                                     //Uncomment to re-enable dev tools!!!!!!!!
+  mainWindow.webContents.openDevTools();                                                     //Uncomment to re-enable dev tools!!!!!!!!
 };
 
 // This method will be called when Electron has finished
