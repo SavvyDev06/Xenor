@@ -1,7 +1,7 @@
 {
   "name": "xenor",
   "productName": "xenor",
-  "version": "2.5.6",
+  "version": "2.5.7",
   "description": "Xenor, the Lightweight Video Recorder",
   "main": "src/index.js",
   "scripts": {
@@ -22,7 +22,7 @@
       "type": "git",
       "url": "https://github.com/SavvyDev06/Xenor.git",
       "owner": "SavvyDev06",
-      "name": "xenor"
+      "name": "Xenor"
   },
   "prerelease": true,
 

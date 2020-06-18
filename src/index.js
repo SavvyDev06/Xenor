@@ -6,7 +6,7 @@ if (require('electron-squirrel-startup')) { // eslint-disable-line global-requir
   app.quit();
 }
 
-let appVersion = 0.56;
+let appVersion = 0.57;
 
 const isDev = require('electron-is-dev');
 
@@ -24,7 +24,7 @@ const createWindow = () => {
     height: 600,
     webPreferences: {
       nodeIntegration: true,
-    }
+    },
   });
 
   // and load the index.html of the app.
